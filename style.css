@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    height: 150px;
+}
+
+ul {
+    list-style: none;
+}
+
+.body {
+    background-color: rgb(240, 105, 105);
+}
+
+/* media query for responsiveness */
+@media screen and (max-width: 580px) {
+    .services {
+
+        width: 80vw;
+    }
+}
